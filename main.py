@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import linear_kernel
 
 #http://127.0.0.1:8000
 
-df = pd.read_csv('PIMLOps/movies.csv')
+df = pd.read_csv('Datasets/movies.csv')
 
 app = FastAPI()
 
