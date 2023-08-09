@@ -90,17 +90,23 @@ def get_director(director:str):
     if director not in df['director'].values:
         raise HTTPException(status_code=404, detail="El nombre del director ingresado no existe en el dataset")
     
-    retorno_total = df[df['director']==director]['return'].sum()
-    peliculas = df[df['director']==director]['title'].tolist()
-    anios = df[df['director']==director]['year'].tolist()
-    budget = df[df['director']==director]['budget'].tolist()
-    revenue = df[df['director']==director]['revenue'].tolist()
-    retorno =  df[df['director']==director]['return'].tolist()
-    revenue = df[df['director']==director]['revenue'].tolist()
-    
-    return {'director': director, 'retorno_total_director':retorno_total ,
-    'peliculas':peliculas, 'anios':anios, 'retorno_pelicula': retorno, 'budget_pelicula':budget, 'revenue_pelicula':revenue}
+    director_data = df[df['director'] == director]
 
+    peliculas_info = []
+    for index, row in director_data.iterrows():
+        pelicula_info = {
+            'titulo': row['title'],
+            'retorno': row['return'],
+            'presupuesto': row['budget'],
+            'ingresos': row['revenue']
+            # Puedes agregar más campos aquí según tus necesidades
+        }
+        peliculas_info.append(pelicula_info)
+
+    return {
+        'director': director,
+        'peliculas': peliculas_info
+    }
 
 
 #Desarrollo del modelo ML
