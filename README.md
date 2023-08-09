@@ -15,7 +15,16 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 Se llevaron a cabo los siguientes pasos:
 1. Cargar los archivos: movies.csv y credits.csv
 2. Información general del proyecto
-3. 
+3. Cambiar las columnas por el tipo adecuado
+4. Merge de ambos dataset por al columna común "id"
+5. Revisión de duplicados
+6. Procesamiento de valores nulos
+7. Desanidación de columnas y valores a procesar
+8. Creación de nuevas columnas
+9. Eliminar columnas que desanidamos
+10. Reducción de Dataset
+11. Exportación de dataset
+    
 ## EDA
 
 Desarrollo del Proyecto Individual de Henry 
