@@ -3,14 +3,17 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 
 ## Tabla de contenidos
 
-- [ETL](#introducción)
-- [EDA](#características)
-- [Machine Learning](#requisitos)
-- [FastApi](#instalación)
-- [Render](#uso)
-- [Conclusiones](#contribuciones)
+- [ETL](#ETL)
+- [EDA](#EDA)
+- [Machine Learning](#Machine Learning)
+- [FastApi](#FastApi)
+- [Render](#Render)
+- [Conclusiones](#Conclusiones)
 - [Links](#licencia)
 
+## ETL
+GFDGFDGFGD
+## EDA
 
 Desarrollo del Proyecto Individual de Henry 
 Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
