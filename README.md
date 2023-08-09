@@ -14,7 +14,7 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 ## ETL
 Se llevaron a cabo los siguientes pasos:
 1. Cargar los archivos: movies.csv y credits.csv
-2. Información general del proyecto
+2. Información general del proyecto <br>
 El dataset de movies original tenía más de 40000 filas y muchas de las columnas tenían valores nulos. Por otro lado el daatset de credits no tenía valores nulos
 3. Cambiar las columnas por el tipo adecuado
 4. Merge de ambos dataset por al columna común "id"
