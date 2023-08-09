@@ -60,12 +60,53 @@ Se exportó el dataset trabajado en formato movies.csv
     
 ## EDA
 Se llevaron a cabo los siguientes pasos:
-1. Cargar los datos: movies.csv
-2. Forma del dataset
-3. Información general del dataset
-4. Revisión de nulos
-5. Análisis de columnas numéricas
-6. Análisis de columnas categóricas
 
-Desarrollo del Proyecto Individual de Henry 
-Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
+**1. Cargar los datos: movies.csv**
+
+Se cargo el dataset resultado del trabajo ETL que se trabajo previamente: movies.csv
+
+**2. Forma del dataset**
+
+Nuestro dataset tien un shape de (5300,18)
+
+**3. Información general del dataset**
+
+Nuestro daatset no cuenta con valores nuelos, excepto por la columna "language" que tiene 7 nulos 
+
+**4. Revisión de nulos**
+
+Se utilizó al librería missingno para visualizar de forma gráfica los valores nulos de cada columna
+
+**5. Análisis de columnas numéricas**
+
+Se aplicó lo siguientes:
+
+- Análisis descriptivo
+- Histogramas de las columnas: budget, popularity, revenue, runtime, vote_average, vote_count, year y return.
+- Correlación de variables: Se hallarin fuertes correlaciones entre buget y revenue, budget y vote_count, revenue y vote_count, popularity y budget, popularity y revenue, popularity y vote_count.
+- Sactterplots con las columnas de alta correlación
+- Histogramas para revisar outliers
+
+**6. Análisis de columnas categóricas**
+
+Aquí se realizó lo siguientes:
+
+- Top 5 Compañias
+- Top 5 Countries
+- Top 5 Collections
+- Top 5 Directores
+
+## Machine Learning
+
+Se desarrolló un sistema de recomendación con la librería sklearn. Se utilizó una técnica de recomendación basada en contenido usando la columna overview y con ayuda del coseno de similitud se pudo ver las similitudes entre las distitnas películas existentes basada en las descripciones de las mismas. 
+
+## FastApi
+
+Se utilizó el framework de FastApi para crear una aplicación web que permita desarrollar consultas sobre los datos contenidos en el database de películas. 
+
+## Render
+
+
+
+## Links
+* Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
