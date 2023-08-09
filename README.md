@@ -13,18 +13,21 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 
 ## ETL
 Se llevaron a cabo los siguientes pasos:
-1. Cargar los archivos: movies.csv y credits.csv
-** 2. Información general del proyecto ** <br>
+**1. Cargar los archivos: movies.csv y credits.csv**
+**2. Información general del proyecto** <br>
 El dataset de movies original tenía más de 40000 filas y muchas de las columnas tenían valores nulos. Por otro lado el daatset de credits no tenía valores nulos
-3. Cambiar las columnas por el tipo adecuado
-4. Merge de ambos dataset por al columna común "id"
-5. Revisión de duplicados
-6. Procesamiento de valores nulos
-7. Desanidación de columnas y valores a procesar
-8. Creación de nuevas columnas
-9. Eliminar columnas que desanidamos
-10. Reducción de Dataset
-11. Exportación de dataset
+**3. Cambiar las columnas por el tipo adecuado**
+- La columna "id" necesitaba cambiarse a int
+- Las columnas budget y popularity se cambiarona  float
+- La columna release date se cambio a tipo datetime
+**4. Merge de ambos dataset por al columna común "id"**
+**5. Revisión de duplicados**
+**6. Procesamiento de valores nulos**
+**7. Desanidación de columnas y valores a procesar**
+**8. Creación de nuevas columnas**
+**9. Eliminar columnas que desanidamos**
+**10. Reducción de Dataset**
+**11. Exportación de dataset**
     
 ## EDA
 Se llevaron a cabo los siguientes pasos:
