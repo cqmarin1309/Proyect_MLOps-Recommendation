@@ -11,7 +11,7 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 - [Conclusiones](#Conclusiones)
 - [Links](#licencia)
 
-## ETL
+# ETL
 Se llevaron a cabo los siguientes pasos:
 1. Cargar los archivos: movies.csv y credits.csv
 2. Información general del proyecto
