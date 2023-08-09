@@ -15,6 +15,7 @@ A continuación se presenta el proyecto Individual que se trabajo el cual consit
 Se llevaron a cabo los siguientes pasos:
 1. Cargar los archivos: movies.csv y credits.csv
 2. Información general del proyecto
+El dataset de movies original tenía más de 40000 filas y muchas de las columnas tenían valores nulos. Por otro lado el daatset de credits no tenía valores nulos
 3. Cambiar las columnas por el tipo adecuado
 4. Merge de ambos dataset por al columna común "id"
 5. Revisión de duplicados
@@ -26,6 +27,13 @@ Se llevaron a cabo los siguientes pasos:
 11. Exportación de dataset
     
 ## EDA
+Se llevaron a cabo los siguientes pasos:
+1. Cargar los datos: movies.csv
+2. Forma del dataset
+3. Información general del dataset
+4. Revisión de nulos
+5. Análisis de columnas numéricas
+6. Análisis de columnas categóricas
 
 Desarrollo del Proyecto Individual de Henry 
 Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
