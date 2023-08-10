@@ -16,10 +16,10 @@ app = FastAPI()
 @app.get('/peliculas_idioma/{idioma}')
 def peliculas_idioma(idioma: str):
 
-    if idioma not in df['language'].values:
+    if idioma not in df['original_language'].values:
         raise HTTPException(status_code=404, detail="El idioma ingresado no existe en el dataset")
 
-    cantidad_peliculas = df[df['language'] == idioma].shape[0]
+    cantidad_peliculas = df[df['original_language'] == idioma].shape[0]
     return {'idioma': idioma, 'cantidad': cantidad_peliculas}
 
 
