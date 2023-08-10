@@ -106,7 +106,7 @@ Se utilizó el framework de FastApi para crear una aplicación web que permita d
 
 ## Render
 
-
+Conectamos nuestro respositorio de Github a Render y así logramos deployar nuestro sistema de recomendación y de consultas a través de un aplicativo web.
 
 ## Links
 * Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
