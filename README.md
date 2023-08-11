@@ -110,3 +110,5 @@ Conectamos nuestro respositorio de Github a Render y así logramos deployar nues
 
 ## Links
 * Link de proyecto: https://proyecto-individual-henry-u9nx.onrender.com/docs
+* Link del Video de Youtube: https://youtu.be/8htBtWZ6djs
+  
